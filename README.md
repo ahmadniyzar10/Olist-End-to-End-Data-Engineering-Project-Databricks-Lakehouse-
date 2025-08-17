@@ -89,7 +89,7 @@ databricks-olist-e2e/ <br>
 
 ## How to Run
 1. Import the notebooks into Databricks (`/Users/<your_email>/Olist_Project/`)  
-2. Create a DLT Pipeline (`olist_dlt_pipeline`) using `01_bronze_silver.sql` + `gold_kpis.sql`  
+2. Create a DLT Pipeline (`olist_dlt_pipeline`) using `bronze_silver.sql` + `gold_kpis.sql`  
 3. Create a Job with 3 tasks:
    - **Task 1**: Run pipeline `olist_dlt_pipeline`  
    - **Task 2**: Run `03_post_dlt_scd2.py` (builds SCD2 dims)  
@@ -109,4 +109,5 @@ databricks-olist-e2e/ <br>
 - Build a **production-style pipeline** with Delta Live Tables  
 - Manage **slowly changing dimensions** in Delta Lake  
 - Automate workflows with **Databricks Jobs**  
-- Serve **KPIs to BI tools** with gold snapshot tables  
+- Serve **KPIs to BI tools** with gold snapshot tables
+- Documenting pipelines and preparing portfolio-ready artifacts (README, architecture diagram, dashboards)
