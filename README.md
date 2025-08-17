@@ -37,7 +37,10 @@ databricks-olist-e2e/ <br>
 ---
 
 ##  Architecture
-![Architecture Diagram](docs/architecture.png)
+<img width="328" height="581" alt="image" src="https://github.com/user-attachments/assets/c6bb08dc-dd8f-4ef9-81a2-038856596386" />
+
+
+
 
 ---
 
