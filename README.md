@@ -8,7 +8,7 @@
 
 ## Project Overview
 This project demonstrates an **end-to-end data engineering pipeline** using the **Olist E-Commerce dataset** on **Databricks Free Edition**.  
-It is designed as a **portfolio showcase** for interviews, highlighting:
+It is designed as a **portfolio showcase**, highlighting:
 
 - Ingestion, cleaning, and transformation using **Delta Live Tables (DLT)**  
 - Advanced **Slowly Changing Dimensions (SCD Type 2)** for dimension tracking  
@@ -18,13 +18,13 @@ It is designed as a **portfolio showcase** for interviews, highlighting:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 databricks-olist-e2e/ <br>
 ├─ notebooks/ <br>
-│ ├─ 01_bronze_silver.sql # Bronze → Silver transformations (DLT) <br>
-│ ├─ 02_scd2_helpers.py # Python helper functions for SCD2 <br>
+│ ├─ bronze_silver.sql # Bronze → Silver transformations (DLT) <br>
 │ ├─ gold_kpis.sql # Gold KPIs (Live Views + Snapshots) <br>
+│ ├─ 02_scd2_helpers.py # Python helper functions for SCD2 <br>
 │ ├─ 03_post_dlt_scd2.py # Post-DLT notebook: SCD2 merges <br>
 │ └─ 04_gold_snapshots.py # (Optional) Additional snapshotting <br>
 ├─ jobs/ <br>
