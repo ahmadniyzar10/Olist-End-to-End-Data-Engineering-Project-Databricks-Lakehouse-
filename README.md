@@ -36,7 +36,7 @@ databricks-olist-e2e/ <br>
 
 ---
 
-##  Architecture
+##  End-to-End Architecture
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/9d97c99b-5d29-4498-83db-7bcfae71afa2" />
 
 
