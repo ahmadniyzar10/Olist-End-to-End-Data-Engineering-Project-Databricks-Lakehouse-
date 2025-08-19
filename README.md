@@ -8,11 +8,12 @@
 
 ---
 
-## 🔗 Quick Links
-- [Notebooks](databricks-olist-e2e/Notebooks)
+## Quick Links
+- [Notebooks](databricks-olist-e2e/Notebooks/)
 - [Job Definition JSON](databricks-olist-e2e/jobs/olist_end_to_end.json)
 - [Architecture Diagram](databricks-olist-e2e/End-to-End%20Architecture.png)
 - [Lineage Graph](databricks-olist-e2e/dlt_lineage.png)
+
 
 ---
 
