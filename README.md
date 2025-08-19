@@ -6,8 +6,7 @@
 ![Python](https://img.shields.io/badge/Python-Scripting-green?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-Transformations-lightgrey?logo=postgresql&logoColor=white)
 
-#### This repository demonstrates an **end-to-end data engineering pipeline** using the [Olist E-commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).  
-#### The project is built on **Databricks Lakehouse** and covers the complete journey from raw data ingestion to business-ready KPIs and dashboards.
+#### This repository demonstrates an **end-to-end data engineering pipeline** using the [Olist E-commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce). The project is built on **Databricks Lakehouse** and covers the complete journey from raw data ingestion to business-ready KPIs and dashboards.
 ---
 
 ## Quick Links
@@ -30,8 +29,6 @@ This project implements the **Medallion Architecture (Bronze → Silver → Gold
 Visualization can be done via **Databricks SQL Dashboards** or **Power BI**. 
 
 ---
-
-
 ## Project Structure
 
 ```text
