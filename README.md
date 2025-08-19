@@ -9,7 +9,7 @@
 ---
 
 ## 🔗 Quick Links
-- [Notebooks](Notebooks/)
+- [Notebooks]([Notebooks/](https://github.com/ahmadniyzar10/Olist-End-to-End-Data-Engineering-Project-Databricks-Lakehouse-/tree/398de609ad81cfd3ea74b2ef1621a4a70c2e135a/databricks-olist-e2e/Notebooks))
 - [Job Definition JSON](jobs/olist_end_to_end.json)
 - [Architecture Diagram](End-to-End%20Architecture.png)
 - [Lineage Graph](dlt_lineage.png)
