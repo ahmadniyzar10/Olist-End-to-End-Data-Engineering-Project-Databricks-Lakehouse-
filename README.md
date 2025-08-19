@@ -96,8 +96,7 @@ databricks-olist-e2e/
 
 ## Example KPIs
 1. **Total Orders**  
-2. **Gross Merchandise Value (GMV)**  
-3. **Average Order Value (AOV)**  
+2. **Average Order Value **  
 4. **Average Delivery Days**  
 5. **% Late Deliveries**  
 6. **Average Review Score**  
