@@ -32,7 +32,7 @@ It is designed as a **portfolio showcase**, highlighting:
 ## Project Structure
 
 databricks-olist-e2e/ <br>
-├─ notebooks/ <br>
+├─ Notebooks/ <br>
 │ ├─ bronze_silver.sql # Bronze → Silver transformations (DLT) <br>
 │ ├─ gold_kpis.sql # Gold KPIs (Live Views + Snapshots) <br>
 │ ├─ 02_scd2_helpers.py # Python helper functions for SCD2 <br>
