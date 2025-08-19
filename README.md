@@ -9,10 +9,11 @@
 ---
 
 ## Quick Links
-- [Notebooks](databricks-olist-e2e/Notebooks/)
-- [Job Definition JSON](databricks-olist-e2e/jobs/olist_end_to_end.json)
-- [Architecture Diagram](databricks-olist-e2e/End-to-End%20Architecture.png)
-- [Lineage Graph](databricks-olist-e2e/dlt_lineage.png)
+- [Notebooks](./databricks-olist-e2e/Notebooks) – Transformation logic & helpers  
+- [Jobs](./databricks-olist-e2e/jobs) – Databricks job definition  
+- [Docs](./databricks-olist-e2e/docs) – Architecture diagrams & data dictionary  
+- [README](./README.md) – Project overview  
+- ⚖️[LICENSE](./LICENSE) – License details  
 
 
 ---
@@ -31,19 +32,30 @@ It is designed as a **portfolio showcase**, highlighting:
 
 ## Project Structure
 
-databricks-olist-e2e/ <br>
-├─ Notebooks/ <br>
-│ ├─ bronze_silver.sql # Bronze → Silver transformations (DLT) <br>
-│ ├─ gold_kpis.sql # Gold KPIs (Live Views + Snapshots) <br>
-│ ├─ 02_scd2_helpers.py # Python helper functions for SCD2 <br>
-│ ├─ 03_post_dlt_scd2.py # Post-DLT notebook: SCD2 merges <br>
-│ └─ 04_gold_snapshots.py # (Optional) Additional snapshotting <br>
-├─ jobs/ <br>
-│ └─ olist_end_to_end.json # Job definition (pipeline + notebooks) <br>
-├─ docs/ <br>
-│ ├─ architecture.png # Lakehouse architecture diagram <br>
-│ └─ data_dictionary.pdf # Original Olist schema <br>
-└─ README.md
+## Project Structure
+
+```text
+databricks-olist-e2e/
+├─ Notebooks/
+│   ├─ 02_scd2_helpers.py       # Python helper functions for SCD2
+│   ├─ 03_post_dlt_scd2.py      # Post-DLT notebook: apply SCD2 merges
+│   ├─ 04_gold_snapshots.py     # (Optional) BI snapshot tables
+│   ├─ bronze_silver.sql.sql    # Bronze → Silver transformations (DLT)
+│   └─ gold_kpis.sql.sql        # Gold KPIs (Live Views + Snapshots)
+│
+├─ jobs/
+│   └─ olist_end_to_end.json    # Databricks Job definition
+│
+├─ docs/
+│   ├─ End-to-End Architecture.png  # Lakehouse architecture diagram
+│   ├─ dlt_lineage.png              # DLT pipeline lineage graph
+│   └─ Olist Data Dictionary.pdf    # Original Olist schema
+│
+├─ .gitignore                   # Ignore unnecessary files
+├─ LICENSE                      # MIT License
+└─ README.md                    # Project documentation
+```
+
 
 ---
 
