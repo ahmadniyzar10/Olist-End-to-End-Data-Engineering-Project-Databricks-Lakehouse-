@@ -113,7 +113,7 @@ databricks-olist-e2e/
 - **Databricks SQL Dashboard**: Interactive filters (date, category)  
 - **Power BI Dashboard**: Orders trend, GMV by category, review quality, conversion funnel  
 
-*(Screenshots can be added here once you publish dashboards.)*
+
 
 ---
 
