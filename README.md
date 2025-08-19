@@ -96,7 +96,7 @@ databricks-olist-e2e/
 
 ## Example KPIs
 1. **Total Orders**  
-2. **Average Order Value **  
+2. **Average Order Value**  
 4. **Average Delivery Days**  
 5. **% Late Deliveries**  
 6. **Average Review Score**  
@@ -107,7 +107,7 @@ databricks-olist-e2e/
 
 ## Dashboard Example
 - **Databricks SQL Dashboard**: Interactive filters (date, category)  
-- **Power BI Dashboard**: Orders trend, GMV by category, review quality, conversion funnel  
+- **Power BI Dashboard**: Orders trend, review quality, conversion funnel  
 
 
 
