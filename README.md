@@ -6,6 +6,16 @@
 ![Python](https://img.shields.io/badge/Python-Scripting-green?logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-Transformations-lightgrey?logo=postgresql&logoColor=white)
 
+---
+
+## 🔗 Quick Links
+- [Notebooks](Notebooks/)
+- [Job Definition JSON](jobs/olist_end_to_end.json)
+- [Architecture Diagram](End-to-End%20Architecture.png)
+- [Lineage Graph](dlt_lineage.png)
+
+---
+
 ## Project Overview
 This project demonstrates an **end-to-end data engineering pipeline** using the **Olist E-Commerce dataset** on **Databricks Free Edition**.  
 It is designed as a **portfolio showcase**, highlighting:
@@ -39,7 +49,10 @@ databricks-olist-e2e/ <br>
 ##  End-to-End Architecture
 <img width="300" height="500" alt="image" src="https://github.com/user-attachments/assets/9d97c99b-5d29-4498-83db-7bcfae71afa2" />
 
+---
 
+## Pipeline Lineage
+<img width="682" height="738" alt="dlt_lineage" src="https://github.com/user-attachments/assets/f73dc340-8341-4d48-9362-d7e055ac41fe" />
 
 
 
