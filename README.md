@@ -128,3 +128,8 @@ databricks-olist-e2e/ <br>
 - Automate workflows with **Databricks Jobs**  
 - Serve **KPIs to BI tools** with gold snapshot tables
 - Documenting pipelines and preparing portfolio-ready artifacts (README, architecture diagram, dashboards)
+
+---
+
+## 📜 License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
