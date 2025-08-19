@@ -13,7 +13,7 @@
 - [Jobs](./databricks-olist-e2e/jobs) – Databricks job definition  
 - [Docs](./databricks-olist-e2e/docs) – Architecture diagrams & data dictionary  
 - [README](./README.md) – Project overview  
-- ⚖️[LICENSE](./LICENSE) – License details  
+- [LICENSE](./LICENSE) – License details  
 
 
 ---
